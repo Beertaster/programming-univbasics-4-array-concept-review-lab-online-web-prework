@@ -29,4 +29,5 @@ def find_min_value(array)
     else
       counter += 1
     end
+  end
 end
