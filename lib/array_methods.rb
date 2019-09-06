@@ -21,7 +21,7 @@ end
 def find_min_value(array)
   # Add your solution here
   counter = 0 
-  lowest_val = nil 
+  lowest_val = 0 
   while counter < array.length do
     if lowest_val > array.length then
       lowest_val = array[counter]
